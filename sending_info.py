@@ -1,10 +1,12 @@
-# some_file.py
 import sys
+import pathlib
+
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, 'C:\\Users\SESA732254\PycharmProjects\pythonProject1\\build\exe.win-amd64-3.10')
+sys.path.insert(1, f"{pathlib.Path().resolve()}")
 import modbus_protocols
 import connection
 from time import *
+import tkinter
 
 while True:
     try:
@@ -14,5 +16,6 @@ while True:
         modbus_protocols.is_raining()  # calling function is_raining
         print("The information was sent!")  # print
     except Exception:
-        raise OSError("Fail to connect!")  # raise an exception
+        tkinter.messagebox.showerror("Error", str(e))
+        raise ValueError("Invalid data!")  # raise an exception
     sleep(15)  # sleep
