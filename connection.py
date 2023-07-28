@@ -1,8 +1,11 @@
 import sys
+import pathlib
+
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, 'C:\\Users\SESA732254\PycharmProjects\pythonProject1\\build\exe.win-amd64-3.10')
+sys.path.insert(1, f"{pathlib.Path().resolve()}")
 from pymodbus.client import ModbusTcpClient as ModbusClient
 import config
+import tkinter
 
 
 def connection_plc():
@@ -18,5 +21,6 @@ try:
 
 
 except Exception:
+    tkinter.messagebox.showerror("Error", str(e))
     connection_plc().close()  # closing connection
     raise OSError("Fail to connect!")  # raise an exception
