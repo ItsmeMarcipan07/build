@@ -1,17 +1,18 @@
 import sys
+import pathlib
+
 # caution: path[0] is reserved for script path (or '' in REPL)
-sys.path.insert(1, 'C:\\Users\SESA732254\PycharmProjects\pythonProject1\\build\exe.win-amd64-3.10')
+sys.path.insert(1, f"{pathlib.Path().resolve()}")
 from pyowm.owm import OWM
 import config
-import gui_loc
 from time import *
 
 
 def owm_connection():  # connecting to openweathermap.org
     owm = OWM(config.API_KEY)  # API key from openweathermap.org
-    manager = owm.weather_manager()  # TODO: check
+    manager = owm.weather_manager()  #
     # getting weather at coords from user -->
-    place = manager.weather_at_coords(float(gui_loc.get_value()[0]), float(gui_loc.get_value()[1]))
+    place = manager.weather_at_coords(config.Latitude, config.Longitude)
     return [place, manager]  # return manager and weather at place
 
 
@@ -24,8 +25,8 @@ def get_weather():
 def forecast_seven_days():
     # getting 7 days forecast for every 3 hours
     results = []  # empty list
-    seven_days_forcast = owm_connection()[1].forecast_at_coords(float(gui_loc.get_value()[0]),
-                                                                float(gui_loc.get_value()[1]),
+    seven_days_forcast = owm_connection()[1].forecast_at_coords(config.Latitude,
+                                                                config.Longitude,
                                                                 '3h').forecast  # forecast
     for weather in seven_days_forcast:  # loop
         results.append({f'{weather.status}': weather.reference_time('iso')})  # convert forecast to dictionary
