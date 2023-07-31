@@ -3,15 +3,21 @@ import pathlib
 
 # caution: path[0] is reserved for script path (or '' in REPL)
 sys.path.insert(1, f"{pathlib.Path().resolve()}")
+
+# imports
 from pymodbus.client import ModbusTcpClient as ModbusClient
 import config
-import tkinter
+from tkinter import messagebox
 
 
 def connection_plc():
     client = ModbusClient(config.PLC_IP, config.PLC_PORT)  # create modbus client with PLC_IP and PLC_PORT
-    client.connect()  # create connection
-    return client  # return connection
+    try:
+        client.connect()  # create connection
+        return client  # return connection
+    except OSError("Fail to connect!") as oserr:
+        messagebox.showerror("Connection error", str(oserr))
+    # return client  # return connection
 
 
 try:
@@ -20,7 +26,7 @@ try:
     print("Connected!")  # print
 
 
-except Exception:
-    tkinter.messagebox.showerror("Error", str(e))
+except OSError("Invalid data!") as oserr:
+    messagebox.showerror("Connection error", str(oserr))
     connection_plc().close()  # closing connection
-    raise OSError("Fail to connect!")  # raise an exception
+    raise OSError("Invalid data!")  # raise an exception
