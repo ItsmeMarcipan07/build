@@ -3,6 +3,7 @@ import pathlib
 
 # caution: path[0] is reserved for script path (or '' in REPL)
 sys.path.insert(1, f"{pathlib.Path().resolve()}")
+# imports
 from data_from_user import data
 
 # getting information from data_from_user.py
