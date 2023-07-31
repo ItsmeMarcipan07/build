@@ -3,6 +3,7 @@ import pathlib
 
 # caution: path[0] is reserved for script path (or '' in REPL)
 sys.path.insert(1, f"{pathlib.Path().resolve()}")
+# imports
 import connection
 import weather_config
 import config
@@ -53,13 +54,12 @@ def read_modbus():
 
 
 def is_raining():
-    ...
-    # check current weather status
-    # if weather_config.get_weather()[1].status == "Rain":
-    #     read_coil = connection.connection_plc().write_coil(0, True, unit=config.UNIT)
-    #
-    # else:
-    #     read_coil = connection.connection_plc().write_coil(0, False, unit=config.UNIT)
-    # reading = connection.connection_plc().read_coils(0, 1, unit=config.UNIT)
-    #
-    # return [reading, read_coil]  # return information
+    # check current weather status, if weather status is Rain -> True, else -> False
+    if weather_config.get_weather()[1].status == "Rain":
+        read_coil = connection.connection_plc().write_coil(0, True, unit=config.UNIT)
+
+    else:
+        read_coil = connection.connection_plc().write_coil(0, False, unit=config.UNIT)
+    reading = connection.connection_plc().read_coils(0, 1, unit=config.UNIT)
+
+    return [reading, read_coil]  # return information
