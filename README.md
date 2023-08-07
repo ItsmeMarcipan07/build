@@ -14,10 +14,9 @@ How to change settings.txt file information:
 
 
 Steps to run program:
-  1. Unzip build folder
-  2. Open build folder
-  3. Open exe.win-amd64-3.10 folder
-  4. Double click WEATHER-PLC.exe file
+  1. Open build folder
+  2. Open exe.win-amd64-3.10 folder
+  3. Double click WEATHER-PLC.exe file
 
 PyModbus documentation -> https://pymodbus.readthedocs.io/en/latest/index.html
 
