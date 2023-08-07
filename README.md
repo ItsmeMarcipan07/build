@@ -12,7 +12,6 @@ How to change settings.txt file information:
   5. press Ctrl+S to save changes
   6. close file
 
-Download program -> https://drive.google.com/drive/folders/1Rm-uveBnZGt_XHr5w3rjMoSt1Am_bL-o?usp=sharing
 
 Steps to run program:
   1. Unzip build folder
