@@ -1,7 +1,0 @@
-PLC_IP = 192.168.0.221
-PLC_PORT = 502
-PLC_NAME = Test
-UNIT = 0x1
-API_key = f908fb25aeb29d8301c34cad38415141
-Latitude = 42.698334
-Longitude = 23.31994
