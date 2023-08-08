@@ -18,29 +18,30 @@ Steps to run program:
   2. Open exe.win-amd64-3.10 folder
   3. Double click WEATHER-PLC.exe File
 
-PyModbus documentation -> https://pymodbus.readthedocs.io/en/latest/index.html
+<p dir="auto"><a href="https://pymodbus.readthedocs.io/en/latest/index.html">Pymodbus documentation</a></p>
 
-Pathlib documentation -> https://docs.python.org/3/library/pathlib.html
+<p dir="auto"><a href="https://docs.python.org/3/library/pathlib.html">Pathlib documentation</a></p>
 
-Sys documentation -> https://docs.python.org/3/library/sys.html
+<p dir="auto"><a href="https://docs.python.org/3/library/sys.html">Sys documentation</a></p>
 
-Time documentation -> https://docs.python.org/3/library/time.html
+<p dir="auto"><a href="https://docs.python.org/3/library/time.html">Time documentation</a></p>
 
-Tkinter documentation -> https://docs.python.org/3/library/tkinter.html
+<p dir="auto"><a href="https://docs.python.org/3/library/tkinter.html">Tkinter documentation</a></p>
 
-Tkinter messagebox documentation -> https://docs.python.org/3/library/tkinter.messagebox.html
+<p dir="auto"><a href="https://docs.python.org/3/library/tkinter.messagebox.html">Tkinter messagebox documentation</a></p>
 
-OpenWeatherMap API documentation -> https://openweathermap.org/api
+<p dir="auto"><a href="https://openweathermap.org/api">OpenWeatherMap API documentation</a></p>
 
-PyOWM documentation -> https://pyowm.readthedocs.io/en/latest/index.html
+<p dir="auto"><a href="https://pyowm.readthedocs.io/en/latest/index.html">PyOWM documentation</a></p>
 
-cx_Freeze documentation -> https://cx-freeze.readthedocs.io/en/stable/index.html
+<p dir="auto"><a href="https://cx-freeze.readthedocs.io/en/stable/index.html">cx_Freeze documentation</a></p>
 
-To get API key go to and follow steps -> https://openweathermap.org/appid
+<p dir="auto"><a href="https://openweathermap.org/appidl">To get API key go to and follow steps</a></p>
 
-EcoStruxure Machine Expert Basic - Project -> https://drive.google.com/file/d/19vnRYXcWasWl4QvDxUUXoaZ7BbuFJ-9T/view?usp=sharing
+<p dir="auto"><a href="https://drive.google.com/file/d/19vnRYXcWasWl4QvDxUUXoaZ7BbuFJ-9T/view?usp=sharing
+">EcoStruxure Machine Expert Basic - Project</a></p>
 
-Setup file -> https://github.com/ItsmeMarcipan07/setup
+<p dir="auto"><a href="https://github.com/ItsmeMarcipan07/setup">Setup file</a></p>
 
 Addresses:
 
@@ -58,6 +59,6 @@ Addresses:
   6. %MW5 ->  Localtime  Hour
 
   7. %MW6 ->  Localtime Minutes
-<p dir="auto"><a href="https://pymodbus.readthedocs.io/en/latest/index.html">Pymodbus</a></p>
+
 
 For help: panteleevmartin85@gmail.com
