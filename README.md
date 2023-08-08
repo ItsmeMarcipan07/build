@@ -58,6 +58,6 @@ Addresses:
   6. %MW5 ->  Localtime  Hour
 
   7. %MW6 ->  Localtime Minutes
-
+<p dir="auto"><a href="https://pymodbus.readthedocs.io/en/latest/index.html">Pymodbus</a></p>
 
 For help: panteleevmartin85@gmail.com
