@@ -42,21 +42,22 @@ EcoStruxure Machine Expert Basic - Project -> https://drive.google.com/file/d/19
 
 Setup file -> https://github.com/ItsmeMarcipan07/setup
 
+Addresses:
 
-%MW0 ->  Sunrise Hour
+  %MW0 ->  Sunrise Hour
 
 
-%MW1 ->  Sunrise Minutes
+  %MW1 ->  Sunrise Minutes
 
-%MW2 ->  Sunset Hour
+  %MW2 ->  Sunset Hour
 
-%MW3 ->  Sunset Minutes
+  %MW3 ->  Sunset Minutes
 
-%MW4 ->  Current temperature
+  %MW4 ->  Current temperature
 
-%MW5 ->  Localtime  Hour
+  %MW5 ->  Localtime  Hour
 
-%MW6 ->  Localtime Minutes
+  %MW6 ->  Localtime Minutes
 
 
 For help: panteleevmartin85@gmail.com
