@@ -44,20 +44,20 @@ Setup file -> https://github.com/ItsmeMarcipan07/setup
 
 Addresses:
 
-  %MW0 ->  Sunrise Hour
+  1. %MW0 ->  Sunrise Hour
 
 
-  %MW1 ->  Sunrise Minutes
+  2. %MW1 ->  Sunrise Minutes
 
-  %MW2 ->  Sunset Hour
+  3. %MW2 ->  Sunset Hour
 
-  %MW3 ->  Sunset Minutes
+  4. %MW3 ->  Sunset Minutes
 
-  %MW4 ->  Current temperature
+  5. %MW4 ->  Current temperature
 
-  %MW5 ->  Localtime  Hour
+  6. %MW5 ->  Localtime  Hour
 
-  %MW6 ->  Localtime Minutes
+  7. %MW6 ->  Localtime Minutes
 
 
 For help: panteleevmartin85@gmail.com
