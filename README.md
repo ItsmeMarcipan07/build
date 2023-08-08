@@ -38,6 +38,8 @@ cx_Freeze documentation -> https://cx-freeze.readthedocs.io/en/stable/index.html
 
 To get API key go to and follow steps -> https://openweathermap.org/appid
 
+EcoStruxure Machine Expert Basic - Project -> https://drive.google.com/file/d/19vnRYXcWasWl4QvDxUUXoaZ7BbuFJ-9T/view?usp=sharing
+
 Setup file -> https://github.com/ItsmeMarcipan07/setup
 
 
