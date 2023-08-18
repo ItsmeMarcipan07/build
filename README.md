@@ -18,35 +18,33 @@ Steps to run program:
   2. Open exe.win-amd64-3.10 folder
   3. Double click WEATHER-PLC.exe File
 
-<p dir="auto"><a href="https://pymodbus.readthedocs.io/en/latest/index.html">Pymodbus documentation</a></p>
+https://pymodbus.readthedocs.io/en/latest/index.html
 
-<p dir="auto"><a href="https://docs.python.org/3/library/pathlib.html">Pathlib documentation</a></p>
+https://docs.python.org/3/library/pathlib.html
 
-<p dir="auto"><a href="https://docs.python.org/3/library/sys.html">Sys documentation</a></p>
+https://docs.python.org/3/library/sys.html
 
-<p dir="auto"><a href="https://docs.python.org/3/library/time.html">Time documentation</a></p>
+https://docs.python.org/3/library/time.html
 
-<p dir="auto"><a href="https://docs.python.org/3/library/tkinter.html">Tkinter documentation</a></p>
+https://docs.python.org/3/library/tkinter.html
 
-<p dir="auto"><a href="https://docs.python.org/3/library/tkinter.messagebox.html">Tkinter messagebox documentation</a></p>
+https://docs.python.org/3/library/tkinter.messagebox.html
 
-<p dir="auto"><a href="https://openweathermap.org/api">OpenWeatherMap API documentation</a></p>
+https://openweathermap.org/api
 
-<p dir="auto"><a href="https://pyowm.readthedocs.io/en/latest/index.html">PyOWM documentation</a></p>
+https://pyowm.readthedocs.io/en/latest/index.htm
 
-<p dir="auto"><a href="https://cx-freeze.readthedocs.io/en/stable/index.html">cx_Freeze documentation</a></p>
+https://cx-freeze.readthedocs.io/en/stable/index.html
 
-<p dir="auto"><a href="https://openweathermap.org/appidl">To get API key go to and follow steps</a></p>
+https://openweathermap.org/appidl
 
-<p dir="auto"><a href="https://drive.google.com/file/d/19vnRYXcWasWl4QvDxUUXoaZ7BbuFJ-9T/view?usp=sharing
-">EcoStruxure Machine Expert Basic - Project</a></p>
+https://drive.google.com/file/d/19vnRYXcWasWl4QvDxUUXoaZ7BbuFJ-9T/view?usp=sharing
 
-<p dir="auto"><a href="https://github.com/ItsmeMarcipan07/setup">Setup file</a></p>
+https://github.com/ItsmeMarcipan07/setup
 
 Addresses:
 
   1. %MW0 ->  Sunrise Hour
-
 
   2. %MW1 ->  Sunrise Minutes
 
